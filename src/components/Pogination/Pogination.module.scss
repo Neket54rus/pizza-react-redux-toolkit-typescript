@@ -1,0 +1,24 @@
+.root {
+	display: flex;
+}
+
+.btn {
+	cursor: pointer;
+	font-size: 28px;
+	border: 1px solid #fe5f1e;
+	border-radius: 100%;
+	padding: 10px;
+	line-height: 17px;
+	margin-right: 10px;
+	color: #fe5f1e;
+
+	&:hover {
+		background-color: #fe5f1e;
+		color: white;
+	}
+}
+
+.active {
+	background-color: #fe5f1e;
+	color: white;
+}
